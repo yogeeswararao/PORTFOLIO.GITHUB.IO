@@ -1,0 +1,133 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+.hero
+{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: #eff4fd;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://img.freepik.com/free-psd/abstract-background-design_1297-78.jpg?size=626&ext=jpg&ga=GA1.1.2115841730.1679735365&semt=sph");
+}
+nav
+{
+display: flex;
+width: 84%;
+margin: auto;
+padding: 20px 0px;
+align-items: center;
+justify-content: space-between;
+}
+.logo
+{
+    color: blue;
+    font-size: 40px;
+
+}
+span
+{
+    color: red;
+    font-size: 25px;
+}
+nav ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color:gold;
+    font-weight: bold;
+transition: all 1s;
+font-size: 20px;
+}
+nav ul li a:hover
+{
+    color:rgb(7, 64, 252);
+    margin-left: 30px;
+    margin-bottom: 20px;
+    
+}
+.detel
+{
+    margin-left:8% ;
+    margin-top: 13%;
+}
+.detel h2
+{
+    font-size: 35px;
+    color: rgb(102, 235, 76);
+    margin-bottom: 20px;
+}
+.dow 
+{
+    background-color: blue;
+}
+.text:hover
+{
+    color: rgb(223, 17, 17);
+    margin-left: 20px;
+}
+.orange:hover
+{
+    color: rgb(104, 230, 31);
+}
+.orange
+{
+    color: orange;
+}
+.detel p
+{
+    color:rgb(241, 230, 70);
+    line-height: 22px;
+}
+.detel a
+{
+    background: #162df7;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0px;
+    border-radius: 5px;
+}
+.detel a:hover
+{
+    color: yellow;
+    background-color: green;
+}
+.images
+{
+    width: 35%;
+    height: 90%;
+    position: absolute;
+    bottom: 10px;
+    right: 50px;
+
+}
+.images img
+{
+    height: 80%;
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%);
+    transition: bottom 1s, left 1s;
+}
+.images:hover .shape
+{
+    bottom: 40px;
+}
+.images:hover .yogi
+{
+    left: 45%;
+}

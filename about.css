@@ -1,0 +1,181 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+   
+    box-sizing: border-box;
+}
+body
+{
+   
+    
+}
+.nmnm
+{
+    background-color: black;
+    width: 100%;
+
+height: 90px;
+}
+nav
+{
+display: flex;
+padding: 20px 0px;
+align-items: center;
+justify-content: space-between;
+
+}
+.logo
+{
+    color: blue;
+    font-size: 35px;
+
+}
+span
+{
+    color: red;
+    font-size: 20px;
+}
+nav ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color:aqua;
+    font-weight: bold;
+transition: all .3s;
+font-size: 20px;
+}
+nav ul li a:hover
+{
+    color:rgb(7, 64, 252);
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+.back
+{
+    background-color: black;
+    width: 100%;
+    height: 90px;
+
+}
+.line
+{
+    background-color: #eff4fd;
+    width: 100%;
+    height:5px;
+
+}
+.line1
+{
+    background-color: #eff4fd;
+    width: 100%;
+    height:5px;
+    
+}
+.head
+{
+    color: #eff4fd;
+    font-size: 20px;
+    padding-top: 5px;
+}
+.zoom
+{
+    animation: zoom;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes zoom {
+    0%
+    {
+       transform: scale(1);
+    }
+    100%
+    {
+        transform: scale(2);
+    }
+}
+.box1
+{
+    box-shadow: 1px 1px 6px 6px;
+    width: 100%;
+    height: 280Px;
+    background-image: url("https://img.freepik.com/free-photo/psychedelic-paper-shapes-with-copy-space_23-2149378246.jpg?size=626&ext=jpg&ga=GA1.1.2115841730.1679735365&semt=sph");
+    background-position: center;
+    background-size: cover;
+    margin-left: 60px;
+}
+.ab
+{
+    color: red;
+    font-size: 40px;
+}
+.line2
+{
+    background-color: blue;
+    width: 8%;
+    height: 5px;
+    box-shadow: 1px 1px 3px 4px;
+}
+.line3
+{
+    background-color: blue;
+    width: 40%;
+    height: 5px;
+    box-shadow: 1px 1px 3px 4px;
+    margin-left: 80px;
+}
+.box2
+{
+    box-shadow: 1px 1px 6px 6px;
+    width: 100%;
+    height: 280Px;
+    background-image: url("https://img.freepik.com/free-photo/psychedelic-paper-shapes-with-copy-space_23-2149378246.jpg?size=626&ext=jpg&ga=GA1.1.2115841730.1679735365&semt=sph");
+    background-position: center;
+    background-size: cover;
+    margin-left: 60px;
+}
+.mar
+{
+padding-top: 10x;
+}
+.hhhh
+{
+    background-color: black;
+}
+.line4
+{
+    background-color: blue;
+    width: 30%;
+    height: 5px;
+    box-shadow: 1px 1px 3px 4px;
+    margin-left: 100px;
+}
+.line5
+{
+    background-color: blue;
+    width: 30%;
+    height: 5px;
+    box-shadow: 1px 1px 3px 4px;
+    margin-left: 190px;
+}
+.line6
+{
+    background-color: blue;
+    width: 40%;
+    height: 5px;
+    box-shadow: 1px 1px 3px 4px;
+    margin-left: 130px;
+}
+.bbg
+{
+    background-image: url("https://wallpaper-house.com/data/out/4/wallpaper2you_37292.png");
+    background-position: center;
+    background-size: cover;
+}
